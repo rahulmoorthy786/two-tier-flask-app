@@ -6,7 +6,7 @@ services:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
-      MYSQL_DB: mydb
+      MYSQL_DATABASE: mydb
 
     volumes:
       - mysql-data:/var/lib/mysql
