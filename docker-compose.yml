@@ -20,7 +20,7 @@ services:
         start_period: 60s
 
   flask-app:
-    build: .
+    image: trainwithdocker/two-tier-flask-app:latest
     container_name: flask-app
     environment:
       MYSQL_HOST: mysql
